@@ -17,7 +17,7 @@ namespace ContatoWeb.Controllers
             conn.Open();
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = conn;
-            cmd.CommandText = @"Select * from Contato FOR JSON auto";
+            cmd.CommandText = @"Select * from Contato";
 
             SqlDataReader reader = cmd.ExecuteReader();
             var lista = new List<Contato>();
