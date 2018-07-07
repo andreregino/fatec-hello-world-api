@@ -11,7 +11,7 @@ namespace ContatoWeb.Controllers
     {
         public string Get()
         {
-            return "Hello World";
+            return "Testando consumo da API pela Azure";
         }
     }
 }
