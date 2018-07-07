@@ -26,7 +26,7 @@ namespace ContatoWeb.Controllers
                 Contato c = new Contato
                 {
                     Nome = (string)reader["Nome"],
-                    Email = (string)reader["email"]
+                    Email = (string)reader["Email"]
                 };
                 lista.Add(c);
             }
